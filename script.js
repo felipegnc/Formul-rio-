@@ -31,7 +31,7 @@ form.addEventListener('submit', async (e) => {
   };
 
   try {
-    const response = await fetch("https://discord.com/api/webhooks/1359738323496865793/cNo5Zv3yWijEwijClctOuj4LE1z4LroCgV2Gi_UHlm0gZrYKJ2H9xcleda9OVYU4vSUD", {
+    const response = await fetch("https://discord.com/api/webhooks/1360081283216052235/Vmeuocq7NpSjvQHqU0nBOxL-EphSIBUppTmEhqtXLGIEH7i98S8jjlb6MKqatKppYR0o", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(embed)
