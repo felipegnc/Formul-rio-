@@ -1,0 +1,36 @@
+
+body {
+  background: url('https://wallpapercave.com/wp/wp5128415.jpg') center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+.container {
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  color: white;
+}
+input, textarea, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+button {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  color: white;
+  cursor: pointer;
+}
+.success {
+  display: none;
+}
+.emoji {
+  font-size: 40px;
+}

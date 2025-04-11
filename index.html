@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="formulario">
+      <h2>Formulário de Aplicação</h2>
+      <form id="formulario">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="number" id="idade" placeholder="Sua idade" required />
+        <textarea id="aceita" placeholder="Por que devemos te aceitar?" required></textarea>
+        <textarea id="motivo" placeholder="Qual motivo se concorreu?" required></textarea>
+        <textarea id="troca" placeholder="O que você deve receber em troca?" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div class="success">
+      <div class="emoji">✅</div>
+      <h3>Formulário enviado com sucesso!</h3>
+      <a href="https://discord.gg/seuconvite" target="_blank">
+        <button>Ir para o servidor</button>
+      </a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
