@@ -3,12 +3,15 @@ form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const data = {
-    nome: document.getElementById('nome').value,
-    idade: document.getElementById('idade').value,
-    aceita: document.getElementById('aceita').value,
-    motivo: document.getElementById('motivo').value,
-    troca: document.getElementById('troca').value,
-  };
+  const data = {
+  nome: document.getElementById('nome').value,
+  id: document.getElementById('id').value, // <-- Adicione esta linha
+  idade: document.getElementById('idade').value,
+  aceita: document.getElementById('aceita').value,
+  motivo: document.getElementById('motivo').value,
+  troca: document.getElementById('troca').value,
+};
+
 
   const embed = {
     embeds: [
