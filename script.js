@@ -3,7 +3,6 @@ form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const data = {
-  const data = {
   nome: document.getElementById('nome').value,
   id: document.getElementById('id').value, // <-- Adicione esta linha
   idade: document.getElementById('idade').value,
