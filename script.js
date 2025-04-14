@@ -21,7 +21,7 @@ form.addEventListener('submit', async (e) => {
           { name: "**Nome**", value: data.nome || "Não informado", inline: true },
           { name: "**Idade**", value: data.idade || "Não informado", inline: true },
           { name: "**Id Discord**", value: data.id || "Não informado", inline: true },
-          { name: "**Mençao**", value: data.id ? `<@${data.id}>` : "Não informado", inline: true },
+          { name: "**Mençao**", value: `<@${data.id}>` : "Não informado", inline: true },
           { name: "**Por que devemos te aceitar?**", value: data.aceita || "Não informado" },
           { name: "**Qual motivo se concorreu?**", value: data.motivo || "Não informado" },
           { name: "**O que você deve receber em troca?**", value: data.troca || "Não informado" },
